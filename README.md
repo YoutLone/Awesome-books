@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://youtlone.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -139,7 +139,6 @@ npx eslint .
 👤 **Sami Ullah Tufail**
 
 - GitHub: [@githubhandle](https://github.com/Sami-Ullah-Tufail)
-- LinkedIn: [LinkedIn]()
 
 <!-- FUTURE FEATURES -->
 
