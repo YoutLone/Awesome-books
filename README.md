@@ -146,7 +146,6 @@ npx eslint .
 
 Future changes:
 
-- Adding navigation Menu
 - User friendly style
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
