@@ -1,11 +1,11 @@
 export default class Book {
-    constructor(title, author) {
-      this.title = title;
-      this.author = author;
-    }
-  
+  constructor(title, author) {
+    this.title = title;
+    this.author = author;
+  }
+
       bookList = [];
-  
+
       add() {
         if (document.getElementById('title').value && document.getElementById('author').value) {
           const temp = {
@@ -18,7 +18,7 @@ export default class Book {
           this.displayInfo();
         }
       }
-  
+
       displayInfo() {
         if (JSON.parse(localStorage.getItem('bookList'))) {
           this.bookList = JSON.parse(localStorage.getItem('bookList'));
@@ -39,10 +39,10 @@ export default class Book {
           });
         }
       }
-  
+
       remove(index) {
         this.bookList.splice(index, 1);
         localStorage.setItem('bookList', JSON.stringify(this.bookList));
         this.displayInfo();
       }
-  }
+}
