@@ -1,8 +1,6 @@
 import Book from './modules/book.js';
 import * as nav from './modules/nav.js';
 
-
-
 document.getElementById('list').addEventListener('click', nav.listShow);
 document.getElementById('addNew').addEventListener('click', nav.addShow);
 document.getElementById('contact').addEventListener('click', nav.contactShow);
